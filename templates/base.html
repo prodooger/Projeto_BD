@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox | Dooger Studios</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/ssstyle.css') }}">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <nav class="navigation" aria-label="Navegação principal">
+        <a class="button" href="/">Home</a>
+        <a class="button" href="/cadastro">Realizar Cadastro</a>
+        <a class="button" href="/lista">Lista</a>
+      </nav>
+    </header>
+    <main class="paper-sheet">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      Copyright © 2026 Dooger Studios. All Rights Reserved.
+    </footer>
+  </div>
+</body>
+</html>
