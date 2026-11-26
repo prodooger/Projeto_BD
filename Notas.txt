@@ -1,0 +1,2 @@
+Comando de instalação das bibliotecas necessárias (usando um ambiente virtual):
+python -m pip install -r requirements.txt
